@@ -140,7 +140,6 @@ function Home() {
                       <p className='fw-bold pt-2'>{a.title}</p>
                       <h5 className='text-primary fw-bold '>रु{a.price}</h5>
                       <Link className='btn btn-primary btn-sm' to={`/details/${a.id}`}>Quick View</Link>
-
                     </div>
                   </div>
                 </SwiperSlide>
